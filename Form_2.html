@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>My info</title>
+    </head>
+    <body>
+        <form method="get" action="">
+            <div hidden>
+                <label>Token</label>
+                <br>
+                <input type="text" value="b92f1fc2fce391ad7af633723afd3055">
+            </div>
+            <br>
+            <div>
+                <label>Email:</label>
+                <br>
+                <input type="email" value="o@o.com" readonly>
+            </div>
+            <br>
+            <div>
+                <label>Username:</label>
+                <br>
+                <input type="text" autofocus placeholder="Username" minlength="5" maxlength="20">
+            </div>
+            <hr>
+            <div>
+                <h2>JOB</h2>
+                <div>
+                    <input type="radio" id="Analyst" name="job" value="Analyst">
+                    <label for="Analyst">Analyst</label>
+                </div>
+                <div>
+                    <input type="radio" id="PS" name="job" value="Problem Solving">
+                    <label for="PS">Problem Solving</label>
+                </div>
+                <div>
+                    <input type="radio" id="LT" name="job" value="Logical Thinking">
+                    <label for="LT">Logical Thinking</label>
+                </div>
+                <div>
+                    <input type="radio" id="Planning" name="job" value="Planning">
+                    <label for="Planning">Planning</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <h2>Skills</h2>
+                <div>   
+                    <input type="checkbox" id="Analyst1" name="Skills" value="Analyst">
+                    <label for="Analyst1">Analyst</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="PS1" name="Skills" value="Problem Solving">
+                    <label for="PS1">Problem Solving</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="LT1" name="Skills" value="Logical Thinking">
+                    <label for="LT1">Logical Thinking</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Planning1" name="Skills" value="Planning">
+                    <label for="Planning1">Planning</label>
+                </div>
+            </div>
+            <br><hr>
+            <div>
+                <div>
+                    <label for="CB">Check Box: </label>
+                    <select id="CB" name="Book">
+                        <optgroup label="PHP">
+                            <option value="5">V5.0</option>
+                            <option value="6">V6.0</option>
+                            <option value="7">V7.0</option>
+                        </optgroup>
+                        <optgroup label="Python">
+                            <option value="2">V2.0</option>
+                            <option value="3">V3.0</option>
+                            <option value="4">V4.0</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="Brif">Brif</label>
+                    <br>
+                    <textarea 
+                        id="Brif" 
+                        placeholder="Write Here Why You Want To Learn Programming" 
+                        name="Brif"
+                        cols="40" rows="10">
+                    </textarea>
+                </div>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Save">
+                <input type="reset" value="Empty Form">
+            </div>
+        </form>
+    </body>
+</html>
